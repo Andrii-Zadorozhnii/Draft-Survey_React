@@ -1,0 +1,28 @@
+.headerTitle {
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.headerContentBox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.headerContentBox p {
+    min-width: 100px;
+    width: 100%;
+    flex: 1;
+}
+.headerContentBox input {
+    min-width: 100px;
+    width: 100%;
+    flex: 4;
+}
+
+.headerVesselInformation{
+    display: flex;
+    flex-wrap: wrap;
+}
